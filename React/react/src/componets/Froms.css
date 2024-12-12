@@ -1,0 +1,22 @@
+.mains {
+  display: flex;
+  border: 1px solid black;
+  gap:  30px ;
+}
+
+.Fromss {
+
+  border: 3px solid black;
+}
+
+form {
+  border: 2px solid black;
+}
+
+
+input{
+    text-decoration: none;
+    margin: 50px;
+    
+    border: 2px solid black;
+}

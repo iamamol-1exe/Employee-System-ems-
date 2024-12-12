@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  background-color: crimson;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  margin: 20px;
+  height: 50px;
+  width: 70px;
+  border: 2px solid black;
+}
+
