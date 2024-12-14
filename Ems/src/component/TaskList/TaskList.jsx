@@ -18,10 +18,10 @@ const TaskList = ({ data }) => {
             return <NewTask key={id} data={ele} />;
           }
           if (ele.failed) {
-            return <FailedTask key={id} />;
+            return <FailedTask key={id} data={ele}  />;
           }
           if (ele.completed) {
-            return <CompleteTask key={id} />;
+            return <CompleteTask key={id} data={ele}  />;
           }
         })}
       </div>
