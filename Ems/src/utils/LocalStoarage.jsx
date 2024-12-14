@@ -1,6 +1,7 @@
-const empolyee = [
+const employees = [
   {
     id: 1,
+    firstName: "Rajesh",
     email: "employee1@example.com",
     password: "123",
     tasks: [
@@ -35,9 +36,16 @@ const empolyee = [
         category: "Category 1.3",
       },
     ],
+    taskNumber: {
+      active: 4,
+      newTask: 5,
+      completed: 10,
+      failed: 0,
+    },
   },
   {
     id: 2,
+    firstName: "Anjali",
     email: "employee2@example.com",
     password: "123",
     tasks: [
@@ -72,9 +80,16 @@ const empolyee = [
         category: "Category 2.3",
       },
     ],
+    taskNumber: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 0,
+    },
   },
   {
     id: 3,
+    firstName: "Vikram",
     email: "employee3@example.com",
     password: "123",
     tasks: [
@@ -109,9 +124,16 @@ const empolyee = [
         category: "Category 3.3",
       },
     ],
+    taskNumber: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 0,
+    },
   },
   {
     id: 4,
+    firstName: "Priya",
     email: "employee4@example.com",
     password: "123",
     tasks: [
@@ -146,9 +168,16 @@ const empolyee = [
         category: "Category 4.3",
       },
     ],
+    taskNumber: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 0,
+    },
   },
   {
     id: 5,
+    firstName: "Sneha",
     email: "employee5@example.com",
     password: "123",
     tasks: [
@@ -183,6 +212,12 @@ const empolyee = [
         category: "Category 5.3",
       },
     ],
+    taskNumber: {
+      active: 2,
+      newTask: 1,
+      completed: 1,
+      failed: 0,
+    },
   },
 ];
 
@@ -194,7 +229,7 @@ const Admin = [
   },
 ];
 export const setLocalStorage = () => {
-  localStorage.setItem("employees", JSON.stringify(empolyee));
+  localStorage.setItem("employees", JSON.stringify(employees));
   localStorage.setItem("admin", JSON.stringify(Admin));
 };
 
