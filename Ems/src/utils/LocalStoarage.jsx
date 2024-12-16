@@ -40,7 +40,7 @@ const employees = [
       active: 4,
       newTask: 5,
       completed: 10,
-      failed: 0,
+      failed: 54,
     },
   },
   {
